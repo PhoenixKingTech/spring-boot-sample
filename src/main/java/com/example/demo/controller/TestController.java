@@ -9,6 +9,7 @@ public class TestController {
 	@GetMapping("/ping")
 	public String getResponse() {
 		System.out.println("Making some changes");
+		String data = "database";
 		return "pong";
 	}
 }
